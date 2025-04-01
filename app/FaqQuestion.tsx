@@ -2,7 +2,6 @@
 import React from "react";
 import { FaqProps } from "./Faq";
 import { RiArrowRightSLine } from "@remixicon/react";
-import { faqData } from "@/public/data/faq-data";
 
 const FaqQuestion = ({
   activeFaq,
