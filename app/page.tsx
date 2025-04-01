@@ -13,7 +13,7 @@ export default function Home() {
   }
 
   return (
-    <div className="w-full h-screen flex flex-col gap-4 justify-center items-center">
+    <div className="w-full h-screen flex flex-col gap-4 justify-center items-center bg-white text-black">
       <h1 className="text-2xl font-semibold">{faqData?.heading}</h1>
       <Faq faqData={dataGroupBy} />
     </div>
